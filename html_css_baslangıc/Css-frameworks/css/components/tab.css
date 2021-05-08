@@ -1,0 +1,11 @@
+/* Tab */
+
+.tab {
+  display: none;
+}
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"]:checked + .tab {
+  display: block;
+}
