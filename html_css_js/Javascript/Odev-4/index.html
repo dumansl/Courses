@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // for(i=10 ; i<=100 ; i++ ) {
+    //   console.log(i);
+    // }
+
+    // var i=10;
+
+    // while(i<=100) {
+    //   if(i%5==0) {
+    //     console.log(i);
+    //   }
+    //   i++;
+    // }
+
+    var k_username="guest";
+    var k_passworld="12345";
+    var loggedin= false ;
+
+      while(!loggedin){
+       var username=prompt("Kullanıcı adını giriniz: ");
+       var passworld=prompt("Şifrenizi giriniz: ");
+      
+       if ((k_username == username) && (k_passworld == passworld)) {
+         console.log("Giriş Yapıldı");
+         loggedin=true;
+        } else{
+         console.log ('Hatalı kullanıcı adı veya parola girdiniz.');
+       }
+    }
+    
+    </script>
+</body>
+</html>

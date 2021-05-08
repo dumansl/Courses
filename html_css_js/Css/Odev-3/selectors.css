@@ -1,0 +1,84 @@
+/* <body> 'nin font büyüklüğünü (font-size) 12px ve arkaplan rengini #F4F4F4 */
+
+body{
+    font-size: 12px;
+    background-color: #F4F4F4;
+}
+
+/* <h1> etiketlerinin font rengini (color) #5757d4*/
+
+h1 {
+    color: #5757d4;
+}
+
+/* <h2> etiketlerini kırmızı yapınız */
+
+h2 {
+    color: red;
+}
+
+/* <h3> etiketlerini kenarlık verin (border)*/ 
+
+h3 {
+     border: 1px solid blue;
+}
+
+/* <p> etiketlerinin arkaplan rengini sarı yapınız*/
+
+p {
+    background-color:yellow;
+}
+
+
+/*<input> etiketlerine arkaplan rengi veriniz.*/
+
+input {
+    background-color: chocolate;
+    padding: 10px;
+}
+
+/* paragraf sınıfına sahip olan tüm etiketlere arkaplan rengi beyaz verin.*/
+
+.paragraf {
+    background-color: white;
+}
+
+
+/* paragraf id'sine sahip olan etikete kenarlık verin.*/
+#paragraf {
+    border: 3px solid orange;
+    padding: 10px;
+}
+
+/* div>p şeklindeki etiketlerin font büyüklüğünü 20px yapınız.*/
+div p {
+    font-size: 20px;
+}
+
+/*input etiketlerinden type'ı password olan etikete arkaplan rengi orange yapın*/
+input[type="password"] {
+    background-color: orangered;
+}
+
+/* body>div>ul>li nesnelerinden 2.sinin arkaplan rengini kırmızı yapın.*/
+ul li:nth-child(2) {
+    background-color: red;
+}
+
+
+/* bütün checkbox'ları soldan 70px öteleyin. (margin-left:70px;)*/
+
+input[type="checkbox"] {
+    margin-left: 70px;
+}
+
+/*<h1> etiketinin üstüne gelince font büyüklüğünü 30px yapınız*/
+h1:hover {
+    font-size: 30px;
+}
+
+
+/* ziyaret edilmiş <a> etiketlerinin font rengini gri yapınız */
+a:visited {
+    color: grey;
+}

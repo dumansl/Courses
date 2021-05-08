@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Id-Class</title>
+    <style>
+        .box {
+            width: 120px;
+            height: 120px;
+        }
+
+        .mbox {
+            width: 30px;
+            height: 30px;
+            background-color: yellow;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+
+        }
+        
+        .red {
+            background-color: red;
+            width: 100%;
+            position: sticky;
+            top: 50px;
+        }
+        
+        .blue {
+            background-color: blue;
+            position: relative;
+        }
+        
+        .orange {
+            background-color: orange;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam porro quos voluptas accusamus ut, quia doloremque unde quae libero illum quibusdam iste! Cupiditate magni commodi quae. Modi veniam laudantium excepturi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex doloribus quibusdam reprehenderit optio molestias consequuntur quaerat fuga repudiandae dolores vel, cumque cum, nisi laudantium, velit asperiores nam suscipit odio provident!</p>
+    <div class="box red">
+       Box 1
+   </div>
+   <div class="box blue">
+       Box 2
+       <div class="mbox"></div>
+   </div>
+   <div class="box orange">
+       Box 3
+   </div>
+    <div style="height: 2000px;"></div>
+</body>
+</html>

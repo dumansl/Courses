@@ -1,0 +1,16 @@
+#container{
+    width: 1140px;
+    background-color: antiquewhite;
+}
+
+#blog-post-container {
+    width: 75%;
+    background-color: coral;
+}
+#other-posts {
+    width: 25%;
+    background-color: cornflowerblue;
+}
+#author-box {
+    border: 1px solid red;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // var x = prompt('Doğum yılınızı giriniz: ');
+
+    // var y = 2019-x ;
+
+    // var z = 18-y ;
+
+    // if(y>=18){
+    //   console.log('Ehliyet Alabilirsiniz.');
+    // } else {
+    //   console.log('Ehliyet almanıza '+ z + ' yılınız var.');
+    // }
+  var ay = prompt("Kaçıncı ayda olduğunuzu girin.");
+     switch(ay) {
+       case '12':
+       case '1':
+       case '2': console.log('Kış Mevsimindesiniz');
+       break;
+       case '3': 
+       case '4': 
+       case '5': console.log('İlkbahar Mevsimindesiniz.');
+       break;
+       case '6':
+       case '7':
+       case '8': console.log('Yaz Mevsimindesiniz.');
+       break;
+       case '9':
+       case '10':
+       case '11': console.log('Sonbahar Mevsimindesiniz.');
+       break;
+       default: console.log('Yanlış değer girdiniz. 1 den 12 e kadar bir sayı giriniz.');
+      
+     }
+  </script>
+</body>
+</html>
